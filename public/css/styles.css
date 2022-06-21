@@ -1,0 +1,471 @@
+.bannerNav li {
+   list-style: none;
+   display: inline;
+}
+
+body {
+    background-image: url("/img/bodybg.png");
+    background-color: white;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#weare {
+    color: #c9d0d3;
+}
+
+.banner1 {
+    padding: 12rem 3rem;
+}
+
+.bannerNav {
+    text-decoration: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerNav li button {
+    text-decoration: none;
+}
+
+.bannerNav li .link1 {
+    margin-bottom: 200px;
+}
+
+.booknow {
+    display: flex;
+    width: 85%;
+	min-height: 150px;
+	margin: 0 auto;
+}
+
+.bText {
+    background-color: white;
+    flex: 1;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    color: grey;
+    padding: 0.8rem;
+}
+
+.bdetails {
+    background-color: #c9d0d3;
+    flex: 1;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    padding: 0.8rem;
+}
+
+.visibility {
+    display: none;
+}
+
+.bannerNav li button {
+    font-weight: bold;
+    color: white;
+    background-color: #b68630;
+   padding: 15px 25px 15px 25px;
+   border: 1px solid #b68630;
+   border-radius: 15px;
+}
+
+.bannerNav li button:hover {
+    background: none;
+    color: #b68630;
+    transition: 0.7s;
+}
+
+.banner1 h1 {
+    text-align: center;
+    margin-bottom: 5rem;
+    font-family: 'Nuosu SIL', serif;
+    font-weight: bold;
+    color: white;
+}
+
+.banner {
+    background-image: url("/img/bg.png");
+    background-color: #cccccc;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #navbarNav .navbar-nav .nav-item .nav-link {
+    color: #b68630;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  #navbarNav .navbar-nav .nav-item .nav-link:hover {
+    border-bottom:2px solid #b68630;
+  }
+
+  .noEquityImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner2 h2 {
+    color: #b68630;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    margin-bottom: 3rem;
+  }
+
+  .banner2 h2 span {
+    border-bottom: black 5px solid;
+  }
+
+  .banner2 p {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .banner2 p span{
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .banner2 {
+    margin-top: 150px;
+  }
+
+  .banner2Div {
+    padding: 3.5rem;
+  }
+
+  .goal {
+   margin-bottom: 7rem;
+  }
+
+  .imgAnimation {
+    animation-name: imgMove;
+    animation-duration: 2.3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+ }
+
+ #bgForB {
+    background-image: url("/img/banner2bg-.png");
+    background-color: #cccccc;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .last {
+    height: 200px;
+ }
+ @keyframes imgMove {
+     from {
+        transform: translateX(5px);
+     }
+
+     to {
+        transform: translateX(20px);
+     }
+ }
+
+ .banner3 h1 {
+    text-align: center;
+    color: #b68630;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    margin-bottom: 3rem;
+    
+ }
+
+ .banner3 p {
+    text-align: center;
+    font-weight: bold;
+    padding: 0 10rem;
+    font-family: 'Open Sans', sans-serif;
+ }
+
+ .banner3 h1 span {
+    border-bottom: black 5px solid;
+ }
+
+ .socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .ig {
+    padding: 0 4rem;
+ }
+
+ .socials a {
+    color: white;
+    
+ }
+
+ .socials a i {
+    background-color: black;
+    padding: 8px;
+    border-radius: 10px;
+ }
+
+ .contact {
+    margin-top: 5rem;
+    text-align: center;
+ }
+
+ .contact h1 {
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    margin-bottom: 1.5rem;
+ }
+
+ .contact h3 {
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+ }
+
+ .contactBgDiv {
+    background-color: #fbf6ad;
+    padding: 2rem;
+    border-radius: 30px;
+ }
+
+ .contactMgDiv {
+    margin-bottom: 5rem;
+ }
+
+ .footer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .footUl {
+    text-align: center;
+ }
+
+ .fHeader {
+    text-align: center;
+ }
+
+ .footer1 p {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    color: grey;
+ }
+
+.footUl {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footUl li {
+    padding-bottom: 0.8rem;
+}
+
+.footUl li a {
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    color: #b68630;
+}
+
+.aboutDiv {
+    padding: 10rem 0;
+}
+
+.tGif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutBanner {
+    background-image: url("/img/abtbg.png");
+    background-color: #cccccc;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.aboutSubDiv h1 span{
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    color: #b68630;
+    border-bottom: black solid 5px;
+    
+}
+
+.aboutSubDiv p {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    color: grey;
+    margin-top: 3rem;
+}
+
+.aboutSubDiv {
+    margin-top: 20px;
+}
+
+.aboutBanner {
+    margin-bottom: 10rem;
+}
+
+.faqs {
+    margin-bottom: 10rem;
+}
+
+.faqs .faqsHeader span {
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    color: #b68630;
+    border-bottom: black solid 5px;
+    
+}
+
+.faqsHeader {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.accordion-header {
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.services {
+    padding: 3rem;
+}
+
+.services h1 span {
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    color: #b68630;
+    border-bottom: black solid 5px;
+}
+
+.services .hPara {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    color: grey;
+   text-align: center;
+   margin: 3rem 0;
+}
+
+.serviceSubDiv h4 {
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    color: #b68630;
+    text-align: center;
+}
+
+.serviceSubDiv p {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    color: grey;
+    text-align: center;
+    padding: 1.5rem 0 2.5rem 0;
+}
+
+.servicesGdiv {
+    margin-top: 5rem;
+}
+
+
+
+
+  @media screen and (max-width: 480px) {
+    .aboutSubDiv {
+        padding: 3rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+
+    #navbarNav .navbar-nav .nav-item .nav-link {
+        text-align: center;
+    }
+
+    #navbarNav .navbar-nav .nav-item .nav-link:hover {
+        color: black;
+        border: none;
+    }
+
+    .banner2 p {
+        text-align: center;
+    }
+
+    .banner3 p {
+        padding: 0 3rem;
+    }
+
+    .contactBgDiv {
+        padding: 1rem;
+    }
+
+    .contact{
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .aboutSubDiv {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aboutSubDiv {
+        padding: 1.5rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+
+    #navbarNav .navbar-nav .nav-item .nav-link {
+        text-align: center;
+    }
+
+    #navbarNav .navbar-nav .nav-item .nav-link:hover {
+        color: black;
+        border: none;
+    }
+
+    .banner3 p {
+        padding: 0 3rem;
+    }
+
+    .banner2 p {
+        text-align: center;
+    }
+
+    .aboutSubDiv {
+        margin-top: 0px;
+    }
+
+    .banner2 {
+        margin-top: 0px;
+      }
+
+      .contactBgDiv {
+        padding: 1rem;
+    }
+
+    .contact{
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+}
