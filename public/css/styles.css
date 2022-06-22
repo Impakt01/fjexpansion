@@ -424,6 +424,12 @@ body {
     .aboutSubDiv {
         margin-top: 0px;
     }
+
+    .banner3 h1 span {
+        border: none;
+     }
+
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -467,5 +473,9 @@ body {
         margin-top: 0;
         margin-bottom: 30px;
     }
+
+    .banner3 h1 span {
+        border: none;
+     }
 
 }
